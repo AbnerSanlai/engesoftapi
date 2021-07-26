@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projetos",
+  "info": {
+    "name": "projetos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "idCliente": {
+      "required": true,
+      "default": 0,
+      "type": "integer"
+    },
+    "endereco": {
+      "type": "component",
+      "repeatable": false,
+      "component": "endereco.endereco"
+    },
+    "dataEntrega": {
+      "type": "date"
+    },
+    "statusProjeto": {
+      "type": "string"
+    },
+    "tipoProjeto": {
+      "type": "string"
+    }
+  }
+}

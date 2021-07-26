@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_endereco_enderecos",
+  "info": {
+    "name": "endereco",
+    "icon": "search-location"
+  },
+  "options": {},
+  "attributes": {
+    "Rua": {
+      "type": "string",
+      "required": true
+    },
+    "Numero": {
+      "type": "string",
+      "required": true,
+      "default": "SN"
+    },
+    "bairro": {
+      "type": "string",
+      "required": true
+    },
+    "idCidade": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
