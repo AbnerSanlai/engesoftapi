@@ -1,0 +1,4 @@
+cors: {
+     enabled: true;
+     headers:'*'; 
+    }
